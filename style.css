@@ -22,6 +22,10 @@ body {
     min-height: 50vh;
 }
 
+h1 {
+    color: var(--light);
+}
+
 .columns {
     display: flex;
     flex-direction: row;
