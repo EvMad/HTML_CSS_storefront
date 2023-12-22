@@ -27,6 +27,8 @@ body {
     min-height: 25vh;
     position: sticky;
     background-color: var(--light);
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 h1 {
