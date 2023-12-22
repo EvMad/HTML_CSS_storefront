@@ -30,3 +30,12 @@ body {
     border-color: var(--light);
     border: 2px solid;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: var(--light);
+    border: 2px solid;
+}
