@@ -18,6 +18,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    width: 90vw;
+    min-height: 50vh;
 }
 
 .columns {
@@ -38,4 +40,6 @@ body {
     justify-content: center;
     border-color: var(--light);
     border: 2px solid;
+    min-width: 20px;
+    min-height: 20px;
 }
