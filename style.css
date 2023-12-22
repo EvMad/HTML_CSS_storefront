@@ -65,3 +65,11 @@ h1 {
 h2 {
     color: var(--light);
 }
+
+.desc {
+    color: var(--light);
+    font-size: 14px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 10px;
+}
