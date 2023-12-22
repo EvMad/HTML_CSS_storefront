@@ -22,8 +22,15 @@ body {
     min-height: 50vh;
 }
 
+.hero {
+    min-width: 75vw;
+    min-height: 25vh;
+    position: sticky;
+    background-color: var(--light);
+}
+
 h1 {
-    color: var(--light);
+    color: var(--dark);
 }
 
 .columns {
