@@ -73,3 +73,10 @@ h2 {
     font-style: italic;
     padding: 10px;
 }
+
+.itemImg {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
