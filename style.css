@@ -87,6 +87,7 @@ h1 {
 .heroCol > ul {
     margin-bottom: 10px;
     font-size: 12px;
+    text-align: center;
 }
 
 .heroCol > p {
