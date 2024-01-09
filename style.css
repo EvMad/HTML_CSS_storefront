@@ -73,6 +73,7 @@ h1 {
     border: 2px solid;
     border-color: var(--grey);
     border-radius: 5px;
+    min-width: 50px !important;
 }
 
 .heroCol > h2 {
