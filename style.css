@@ -67,6 +67,7 @@ h1 {
     min-width: 20px;
     min-height: 20px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .heroAlign {
