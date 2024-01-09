@@ -68,6 +68,12 @@ h1 {
     margin: 5px;
 }
 
+.heroCol {
+    border: 2px solid;
+    border-color: var(--dark);
+    border-radius: 5px;
+}
+
 h2 {
     color: var(--light);
 }
