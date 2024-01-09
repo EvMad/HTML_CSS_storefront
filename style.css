@@ -88,6 +88,15 @@ h1 {
     font-size: 12px;
 }
 
+.heroCol > p {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--grey);
+    max-width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
 h2 {
     color: var(--light);
 }
