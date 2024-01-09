@@ -69,10 +69,14 @@ h1 {
     margin: 5px;
 }
 
+.heroAlign {
+    justify-content: flex-start !important;
+}
+
 .heroCol {
-    border: 2px solid;
+    /* border: 2px solid;
     border-color: var(--grey);
-    border-radius: 5px;
+    border-radius: 5px; */
     min-width: 50px !important;
 }
 
@@ -97,6 +101,9 @@ h1 {
     max-width: 200px;
     text-align: center;
     padding: 20px;
+    border: 2px solid;
+    border-color: var(--grey);
+    border-radius: 5px;
 }
 
 h2 {
@@ -131,5 +138,9 @@ h2 {
 
     .heroCol > h2 {
         font-size: 15px;
+    }
+
+    .heroAlign {
+        justify-content: center !important;
     }
 }
