@@ -75,6 +75,17 @@ h1 {
     border-radius: 5px;
 }
 
+.heroCol > h2 {
+    color: var(--dark);
+    font-weight: 300;
+    font-style: italic;
+    padding: 20px;
+}
+
+.heroCol > ul {
+    margin-bottom: 10px;
+}
+
 h2 {
     color: var(--light);
 }
