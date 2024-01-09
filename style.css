@@ -7,6 +7,7 @@
 :root {
     --dark: #000000;
     --light: #FFFFFF;
+    --grey: #616A64;
 }
 
 body {
@@ -70,7 +71,7 @@ h1 {
 
 .heroCol {
     border: 2px solid;
-    border-color: var(--dark);
+    border-color: var(--grey);
     border-radius: 5px;
 }
 
