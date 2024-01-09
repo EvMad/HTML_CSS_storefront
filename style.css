@@ -80,10 +80,12 @@ h1 {
     font-weight: 300;
     font-style: italic;
     padding: 20px;
+    text-align: center;
 }
 
 .heroCol > ul {
     margin-bottom: 10px;
+    font-size: 12px;
 }
 
 h2 {
@@ -110,5 +112,13 @@ h2 {
         font-size: 20px;
         padding: 10px !important;
         text-align: center;
+    }
+
+    .heroCol {
+        min-width: 75px;
+    }
+
+    .heroCol > h2 {
+        font-size: 15px;
     }
 }
