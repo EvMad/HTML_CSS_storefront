@@ -149,9 +149,14 @@ h2 {
 }
 
 @media only screen and (max-width: 646px) {
+    .hero {
+        max-width: 275px;
+    }
     .hero > h1 {
         padding-left: none !important;
         text-align: center;
+        max-width: 250px;
+        font-size: 15px;
     }
 }
 
@@ -178,7 +183,7 @@ h2 {
 @media only screen and (min-width: 378px) {
     .hero {
         min-width: none;
-    }
+        
 }
 
 @media only screen and (min-width: 430px) {
