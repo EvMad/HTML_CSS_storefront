@@ -148,6 +148,13 @@ h2 {
     }
 }
 
+@media only screen and (max-width: 646px) {
+    .hero > h1 {
+        padding-left: none !important;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .hero > h1 {
         font-size: 20px;
