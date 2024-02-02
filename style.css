@@ -112,11 +112,13 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     
+    
 }
 
 .heroIcon > a {
     color: var(--dark);
     font-size: 20px;
+    padding: 10px;
 }
 
 h2 {
