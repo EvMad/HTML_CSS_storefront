@@ -160,3 +160,15 @@ h2 {
         justify-content: center !important;
     }
 }
+
+@media only screen and (min-width: 378px) {
+    .hero {
+        min-width: none;
+    }
+}
+
+@media only screen and (min-width: 430px) {
+    .hero {
+        min-width: 50vw;
+    }
+}
