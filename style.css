@@ -141,6 +141,13 @@ h2 {
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 1010px) {
+
+    .tabletHide {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .hero > h1 {
         font-size: 20px;
