@@ -141,6 +141,11 @@ h2 {
     border-radius: 5px;
 }
 
+.selected {
+    min-width: 80vw !important;
+    min-height: 40vh !important;
+}
+
 @media only screen and (max-width: 1010px) {
 
     .tabletHide {
