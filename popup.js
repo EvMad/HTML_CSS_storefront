@@ -1,7 +1,13 @@
 const sel = document.querySelector('#sel');
 const display = document.querySelector('.example');
-const toHide = document.querySelector('.columns');
+const toHide = document.querySelectorAll('.column');
 
-sel.onclick = () => display.classList.toggle("selected");
 
-window.onclick = () => toHide.style.display = 'none';
+sel.onclick = (e) => {
+    display.classList.toggle("selected");
+    then 
+        {toHide.style.display = "none";}
+    
+    e.preventDefault();
+};
+
