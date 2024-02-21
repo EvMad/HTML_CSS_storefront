@@ -142,8 +142,9 @@ h2 {
 }
 
 .selected {
-    min-width: 80vw !important;
-    min-height: 40vh !important;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 1010px) {
